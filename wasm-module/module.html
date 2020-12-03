@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Module Test</title>
+</head>
+
+<body>
+  <div>
+    <button class="mybutton">运行我的程序</button>
+  </div>
+  <hr />
+  <script type="module">
+    import Module from './hello.js';
+    var wasm = null;
+    Module().then(w => {
+      wasm = w;
+      console.log('wasm', w);
+      return w;
+    }).then((w) => {
+      document.querySelector('.mybutton').addEventListener('click', function () {
+        var result = w.ccall('add', // name of C function 
+          'number',                 // return type
+          ['number', 'number'],     // argument types
+          [1, 2]);                  // arguments
+        console.log('result', result);
+        alert(`result: ${result}`);
+      });
+    })
+  </script>
+</body>
+
+</html>

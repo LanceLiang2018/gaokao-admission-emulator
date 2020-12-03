@@ -1,0 +1,27 @@
+[
+{
+  "directory": "D:/Programs/gaokao-admission-emulator/wasm/cmake/build",
+  "command": "D:\\Tools\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\gaokao-admission-emulator-gcc.dir\\D_\\Programs\\gaokao-admission-emulator\\wasm\\admission_operations.c.obj -c D:\\Programs\\gaokao-admission-emulator\\wasm\\admission_operations.c",
+  "file": "D:/Programs/gaokao-admission-emulator/wasm/admission_operations.c"
+},
+{
+  "directory": "D:/Programs/gaokao-admission-emulator/wasm/cmake/build",
+  "command": "D:\\Tools\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\gaokao-admission-emulator-gcc.dir\\D_\\Programs\\gaokao-admission-emulator\\wasm\\file_operations.c.obj -c D:\\Programs\\gaokao-admission-emulator\\wasm\\file_operations.c",
+  "file": "D:/Programs/gaokao-admission-emulator/wasm/file_operations.c"
+},
+{
+  "directory": "D:/Programs/gaokao-admission-emulator/wasm/cmake/build",
+  "command": "D:\\Tools\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\gaokao-admission-emulator-gcc.dir\\D_\\Programs\\gaokao-admission-emulator\\wasm\\main.c.obj -c D:\\Programs\\gaokao-admission-emulator\\wasm\\main.c",
+  "file": "D:/Programs/gaokao-admission-emulator/wasm/main.c"
+},
+{
+  "directory": "D:/Programs/gaokao-admission-emulator/wasm/cmake/build",
+  "command": "D:\\Tools\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\gaokao-admission-emulator-gcc.dir\\D_\\Programs\\gaokao-admission-emulator\\wasm\\merge_sort.c.obj -c D:\\Programs\\gaokao-admission-emulator\\wasm\\merge_sort.c",
+  "file": "D:/Programs/gaokao-admission-emulator/wasm/merge_sort.c"
+},
+{
+  "directory": "D:/Programs/gaokao-admission-emulator/wasm/cmake/build",
+  "command": "D:\\Tools\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\gaokao-admission-emulator-gcc.dir\\D_\\Programs\\gaokao-admission-emulator\\wasm\\efiles\\efiles.c.obj -c D:\\Programs\\gaokao-admission-emulator\\wasm\\efiles\\efiles.c",
+  "file": "D:/Programs/gaokao-admission-emulator/wasm/efiles/efiles.c"
+}
+]

@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "make emcc module",
+      "command": "call D:\\gits\\emsdk\\emsdk.bat construct_env && emcc -o ${fileBasenameNoExtension}.js ${file} -Wall -O3 -s WASM=1 -s \"EXTRA_EXPORTED_RUNTIME_METHODS=['ccall']\" -s EXPORT_ES6=1 -s MODULARIZE=1 -s USE_ES6_IMPORT_META=0 && start server 8080",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "生成emcc的文件"
+    }
+  ],
+  "version": "2.0.0"
+}

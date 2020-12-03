@@ -1,0 +1,4 @@
+Name,ID,Status,School(ID),School(Name),Subject(ID)
+Saoirse,10245,Admitted,10318,THU,1
+Hans,10399,Admitted,10318,THU,2
+Monica,10310,Failed

@@ -1,3 +1,3 @@
-"D:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\gaokao_admission_emulator.dir/objects.a
-"D:\Program Files\CodeBlocks\MinGW\bin\ar.exe" cr CMakeFiles\gaokao_admission_emulator.dir/objects.a @CMakeFiles\gaokao_admission_emulator.dir\objects1.rsp
-"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" -g   -Wl,--whole-archive CMakeFiles\gaokao_admission_emulator.dir/objects.a -Wl,--no-whole-archive  -o gaokao_admission_emulator.exe -Wl,--out-implib,libgaokao_admission_emulator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gaokao_admission_emulator.dir\linklibs.rsp
+"D:\Software\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\gaokao_admission_emulator.dir/objects.a
+D:\Tools\mingw64\bin\ar.exe cr CMakeFiles\gaokao_admission_emulator.dir/objects.a @CMakeFiles\gaokao_admission_emulator.dir\objects1.rsp
+D:\Tools\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\gaokao_admission_emulator.dir/objects.a -Wl,--no-whole-archive  -o gaokao_admission_emulator.exe -Wl,--out-implib,libgaokao_admission_emulator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gaokao_admission_emulator.dir\linklibs.rsp

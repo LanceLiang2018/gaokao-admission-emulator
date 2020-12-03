@@ -8,88 +8,88 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/GitHub/gaokao-admission-emulator/cmake-build-debug"/>
+				<Option working_dir="D:/Programs/gaokao-admission-emulator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gaokao_admission_emulator">
-				<Option output="D:/GitHub/gaokao-admission-emulator/cmake-build-debug/gaokao_admission_emulator.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/GitHub/gaokao-admission-emulator/cmake-build-debug"/>
+				<Option output="D:/Programs/gaokao-admission-emulator/cmake-build-debug/gaokao_admission_emulator.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programs/gaokao-admission-emulator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 gaokao_admission_emulator"/>
-					<CompileFile command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 gaokao_admission_emulator"/>
+					<CompileFile command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gaokao_admission_emulator/fast">
-				<Option output="D:/GitHub/gaokao-admission-emulator/cmake-build-debug/gaokao_admission_emulator.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/GitHub/gaokao-admission-emulator/cmake-build-debug"/>
+				<Option output="D:/Programs/gaokao-admission-emulator/cmake-build-debug/gaokao_admission_emulator.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programs/gaokao-admission-emulator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/CodeBlocks/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Tools/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 gaokao_admission_emulator/fast"/>
-					<CompileFile command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 gaokao_admission_emulator/fast"/>
+					<CompileFile command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/GitHub/gaokao-admission-emulator/cmake-build-debug"/>
+				<Option working_dir="D:/Programs/gaokao-admission-emulator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/GitHub/gaokao-admission-emulator/cmake-build-debug"/>
+				<Option working_dir="D:/Programs/gaokao-admission-emulator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;D:/GitHub/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Tools/mingw64/bin/mingw32-make.exe -f &quot;D:/Programs/gaokao-admission-emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/GitHub/gaokao-admission-emulator/admission_elements.h">
+		<Unit filename="D:/Programs/gaokao-admission-emulator/admission_elements.h">
 			<Option target="gaokao_admission_emulator"/>
 		</Unit>
-		<Unit filename="D:/GitHub/gaokao-admission-emulator/admission_operations.c">
+		<Unit filename="D:/Programs/gaokao-admission-emulator/admission_operations.c">
 			<Option target="gaokao_admission_emulator"/>
 		</Unit>
-		<Unit filename="D:/GitHub/gaokao-admission-emulator/file_operations.c">
+		<Unit filename="D:/Programs/gaokao-admission-emulator/file_operations.c">
 			<Option target="gaokao_admission_emulator"/>
 		</Unit>
-		<Unit filename="D:/GitHub/gaokao-admission-emulator/main.c">
+		<Unit filename="D:/Programs/gaokao-admission-emulator/main.c">
 			<Option target="gaokao_admission_emulator"/>
 		</Unit>
-		<Unit filename="D:/GitHub/gaokao-admission-emulator/merge_sort.c">
+		<Unit filename="D:/Programs/gaokao-admission-emulator/merge_sort.c">
 			<Option target="gaokao_admission_emulator"/>
 		</Unit>
-		<Unit filename="D:/GitHub/gaokao-admission-emulator/CMakeLists.txt">
+		<Unit filename="D:/Programs/gaokao-admission-emulator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -6,13 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/GitHub/gaokao-admission-emulator/admission_elements.h
+D:/Programs/gaokao-admission-emulator/admission_elements.h
 stdio.h
 -
 string.h
 -
 
-D:/GitHub/gaokao-admission-emulator/main.c
+D:/Programs/gaokao-admission-emulator/admission_operations.c
 admission_elements.h
-D:/GitHub/gaokao-admission-emulator/admission_elements.h
+D:/Programs/gaokao-admission-emulator/admission_elements.h
+
+D:/Programs/gaokao-admission-emulator/file_operations.c
+admission_elements.h
+D:/Programs/gaokao-admission-emulator/admission_elements.h
+
+D:/Programs/gaokao-admission-emulator/main.c
+admission_elements.h
+D:/Programs/gaokao-admission-emulator/admission_elements.h
+
+D:/Programs/gaokao-admission-emulator/merge_sort.c
+admission_elements.h
+D:/Programs/gaokao-admission-emulator/admission_elements.h
 

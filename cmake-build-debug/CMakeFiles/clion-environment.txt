@@ -1,4 +1,4 @@
-ToolSet: w64 6.0 (local)@D:\Program Files\CodeBlocks\MinGW
+ToolSet: w64 6.0 (local)@D:\Tools\mingw64
 Options: 
 
 Options:

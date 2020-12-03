@@ -1,0 +1,58 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: gcc.exe build active file",
+      "command": "D:\\Tools\\mingw64\\bin\\gcc.exe",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "D:\\Tools\\mingw64\\bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Generated task by Debugger"
+    },
+    {
+      "type": "shell",
+      "label": "run emcc",
+      "command": "make_wasm && start server 8080",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "生成emcc的文件"
+    },
+    {
+      "type": "shell",
+      "label": "run emcc html_js",
+      "command": "call D:\\gits\\emsdk\\emsdk.bat construct_env && emcc -o hello_js.html hello.c -O3 -s WASM=1 -s \"EXTRA_EXPORTED_RUNTIME_METHODS=['ccall']\" --shell-file html_template/page.html && start serve -l 8080",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "生成emcc的文件"
+    },
+    {
+      "type": "shell",
+      "label": "run emcc js",
+      // "command": "call D:\\gits\\emsdk\\emsdk.bat construct_env && emcc -o hello_wasm.html hello.c -Wall -O3 -s WASM=1 -s \"EXTRA_EXPORTED_RUNTIME_METHODS=['ccall']\" -s MODULARIZE=1 --shell-file html_template/my_page.html && start server 8080",
+      "command": "call D:\\gits\\emsdk\\emsdk.bat construct_env && emcc -o hello_wasm.js hello.c -Wall -O3 -s WASM=1 -s \"EXTRA_EXPORTED_RUNTIME_METHODS=['ccall']\" && start server 8080",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "生成emcc的文件"
+    }
+  ],
+  "version": "2.0.0"
+}

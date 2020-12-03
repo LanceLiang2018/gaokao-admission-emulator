@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/GitHub/gaokao-admission-emulator/admission_operations.c" "D:/GitHub/gaokao-admission-emulator/cmake-build-debug/CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.obj"
-  "D:/GitHub/gaokao-admission-emulator/file_operations.c" "D:/GitHub/gaokao-admission-emulator/cmake-build-debug/CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.obj"
-  "D:/GitHub/gaokao-admission-emulator/main.c" "D:/GitHub/gaokao-admission-emulator/cmake-build-debug/CMakeFiles/gaokao_admission_emulator.dir/main.c.obj"
-  "D:/GitHub/gaokao-admission-emulator/merge_sort.c" "D:/GitHub/gaokao-admission-emulator/cmake-build-debug/CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.obj"
+  "D:/Programs/gaokao-admission-emulator/admission_operations.c" "D:/Programs/gaokao-admission-emulator/cmake-build-debug/CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.obj"
+  "D:/Programs/gaokao-admission-emulator/file_operations.c" "D:/Programs/gaokao-admission-emulator/cmake-build-debug/CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.obj"
+  "D:/Programs/gaokao-admission-emulator/main.c" "D:/Programs/gaokao-admission-emulator/cmake-build-debug/CMakeFiles/gaokao_admission_emulator.dir/main.c.obj"
+  "D:/Programs/gaokao-admission-emulator/merge_sort.c" "D:/Programs/gaokao-admission-emulator/cmake-build-debug/CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

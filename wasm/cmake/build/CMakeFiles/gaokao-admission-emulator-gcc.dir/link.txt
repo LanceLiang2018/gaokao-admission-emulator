@@ -1,0 +1,3 @@
+D:\Tools\CMake\bin\cmake.exe -E rm -f CMakeFiles\gaokao-admission-emulator-gcc.dir/objects.a
+D:\Tools\mingw64\bin\ar.exe cr CMakeFiles\gaokao-admission-emulator-gcc.dir/objects.a @CMakeFiles\gaokao-admission-emulator-gcc.dir\objects1.rsp
+D:\Tools\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\gaokao-admission-emulator-gcc.dir/objects.a -Wl,--no-whole-archive -o gaokao-admission-emulator-gcc.exe -Wl,--out-implib,libgaokao-admission-emulator-gcc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gaokao-admission-emulator-gcc.dir\linklibs.rsp
