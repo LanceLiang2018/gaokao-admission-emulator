@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "make emcc module",
+      "command": "call D:\\gits\\emsdk\\emsdk.bat construct_env && emcc -o gaokao-admission-emulator.js admission_operations.c main.c file_operations.c efiles/efiles.c merge_sort.c -Wall -O1 -s WASM=1 -s \"EXTRA_EXPORTED_RUNTIME_METHODS=['ccall']\" -s EXPORT_ES6=1 -s MODULARIZE=1 -s USE_ES6_IMPORT_META=0 -s ASSERTIONS=1 -s ALLOW_MEMORY_GROWTH=1 -g4 --source-map-base http://localhost:8080/ && start server 8080",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "生成emcc的文件"
+    },
+    {
+      "type": "cppbuild",
+      "label": "C/C++: gcc.exe build active file",
+      "command": "D:\\Tools\\mingw64\\bin\\gcc.exe",
+      "args": [
+        "D:\\Programs\\gaokao-admission-emulator\\wasm\\admission_operations.c",
+        "D:\\Programs\\gaokao-admission-emulator\\wasm\\file_operations.c",
+        "D:\\Programs\\gaokao-admission-emulator\\wasm\\merge_sort.c",
+        "D:\\Programs\\gaokao-admission-emulator\\wasm\\efiles\\efiles.c",
+        "D:\\Programs\\gaokao-admission-emulator\\wasm\\main.c",
+        "-o",
+        "D:\\Programs\\gaokao-admission-emulator\\wasm\\gaokao-admission-emulator-gcc.exe"
+      ],
+      "options": {
+        "cwd": "D:\\Tools\\mingw64\\bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Generated task by Debugger"
+    }
+  ],
+  "version": "2.0.0"
+}

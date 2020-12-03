@@ -13,7 +13,7 @@
   </div>
   <hr />
   <script type="module">
-    import Module from './hello.js';
+    import Module from './gaokao-admission-emulator.js';
     var wasm = null;
     Module().then(w => {
       wasm = w;
@@ -21,10 +21,16 @@
       return w;
     }).then((w) => {
       document.querySelector('.mybutton').addEventListener('click', function () {
-        var result = w.ccall('add', // name of C function 
-          'number',                 // return type
-          ['number', 'number'],     // argument types
-          [1, 2]);                  // arguments
+        // var result = w.ccall('add', // name of C function 
+        //   'number',                 // return type
+        //   ['number', 'number'],     // argument types
+        //   [1, 2]);                  // arguments
+        // console.log('result', result);
+        // alert(`result: ${result}`);
+        var result = w.ccall('program_main', // name of C function 
+          null,                 // return type
+          null,                 // argument types
+          null);                // arguments
         console.log('result', result);
         alert(`result: ${result}`);
       });

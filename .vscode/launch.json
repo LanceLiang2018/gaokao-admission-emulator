@@ -1,0 +1,47 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "name": "emcc 生成 module on firefox",
+      "url": "http://localhost:8080/module.html",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "make emcc module"
+    },
+    {
+      "name": "emcc 生成 module",
+      "type": "pwa-msedge",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "url": "http://localhost:8080/module.html",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "make emcc module"
+    },
+    {
+      "name": "生成exe",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "D:\\Programs\\gaokao-admission-emulator\\wasm\\gaokao-admission-emulator-gcc.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "D:\\Programs\\gaokao-admission-emulator\\wasm\\",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "D:\\Tools\\mingw64\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "为 gdb 启用整齐打印",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: gcc.exe build active file"
+    }
+  ]
+}
