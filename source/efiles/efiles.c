@@ -116,6 +116,7 @@ int efiles_writeable(EFILE* stream) {
 
 // @Description: 初始化函数：初始化文件列表信息
 void efiles_init() {
+  if (root) return;
   root = (EFILE**)malloc(sizeof(EFILE*) * efiles_max_file_num);
   assert(root);
   memset(root, 0, sizeof(EFILE*) * efiles_max_file_num);

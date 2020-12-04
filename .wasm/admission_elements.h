@@ -8,7 +8,6 @@
 #define USE_WASM
 #define USE_EFILES
 
-
 #ifdef USE_WASM
 /* 编译成 WASM 格式必需 */
 #include <emscripten/emscripten.h>
@@ -60,7 +59,6 @@ typedef struct school_elements {
   char sch_name[MAX_SCH_NAME];
   int sch_sub_number;
   int sch_planned_number[MAX_SUB_NUMBER][2];
-
 } SCH;
 
 typedef struct student_admission_status {
@@ -78,6 +76,11 @@ EMSCRIPTEN_KEEPALIVE void merge_array(STU *, int, int, int);
 EMSCRIPTEN_KEEPALIVE void merge_sort(STU *, int, int);
 EMSCRIPTEN_KEEPALIVE admission_status emulate_admission(STU, SCH *, int,
                                                         STATUS *);
+
+#ifdef USE_WASM
+EMSCRIPTEN_KEEPALIVE void save_student_data(char *data);
+EMSCRIPTEN_KEEPALIVE void save_school_data(char *data);
+#endif
 
 #ifdef __cplusplus
 }

@@ -5,6 +5,23 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "直接打开html",
+      "request": "launch",
+      "type": "pwa-msedge",
+      "url": "http://localhost/www/index.html",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "name": "emcc 生成 index on firefox",
+      "url": "http://localhost:8080/www/index.html",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "make emcc module"
+    },
+    
+    {
       "type": "firefox",
       "request": "launch",
       "reAttach": true,
